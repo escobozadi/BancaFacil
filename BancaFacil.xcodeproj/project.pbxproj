@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821107BD2C2BA6E3005452CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107BC2C2BA6E3005452CF /* AppDelegate.swift */; };
+		821107BF2C2BA6E3005452CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107BE2C2BA6E3005452CF /* SceneDelegate.swift */; };
+		821107C12C2BA6E3005452CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107C02C2BA6E3005452CF /* ViewController.swift */; };
+		821107C42C2BA6E3005452CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 821107C32C2BA6E3005452CF /* Base */; };
+		821107C62C2BA6E6005452CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821107C52C2BA6E6005452CF /* Assets.xcassets */; };
+		821107C92C2BA6E6005452CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 821107C82C2BA6E6005452CF /* Base */; };
+		821107D42C2BA6E7005452CF /* BancaFacilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107D32C2BA6E7005452CF /* BancaFacilTests.swift */; };
+		821107DE2C2BA6E7005452CF /* BancaFacilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107DD2C2BA6E7005452CF /* BancaFacilUITests.swift */; };
+		821107E02C2BA6E7005452CF /* BancaFacilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821107DF2C2BA6E7005452CF /* BancaFacilUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821107D02C2BA6E7005452CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821107B12C2BA6E3005452CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821107B82C2BA6E3005452CF;
+			remoteInfo = BancaFacil;
+		};
+		821107DA2C2BA6E7005452CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821107B12C2BA6E3005452CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821107B82C2BA6E3005452CF;
+			remoteInfo = BancaFacil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821107B92C2BA6E3005452CF /* BancaFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancaFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821107BC2C2BA6E3005452CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		821107BE2C2BA6E3005452CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		821107C02C2BA6E3005452CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		821107C32C2BA6E3005452CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821107C52C2BA6E6005452CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821107C82C2BA6E6005452CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821107CA2C2BA6E6005452CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821107CF2C2BA6E7005452CF /* BancaFacilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BancaFacilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821107D32C2BA6E7005452CF /* BancaFacilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancaFacilTests.swift; sourceTree = "<group>"; };
+		821107D92C2BA6E7005452CF /* BancaFacilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BancaFacilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821107DD2C2BA6E7005452CF /* BancaFacilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancaFacilUITests.swift; sourceTree = "<group>"; };
+		821107DF2C2BA6E7005452CF /* BancaFacilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancaFacilUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821107B62C2BA6E3005452CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107CC2C2BA6E7005452CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107D62C2BA6E7005452CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821107B02C2BA6E3005452CF = {
+			isa = PBXGroup;
+			children = (
+				821107BB2C2BA6E3005452CF /* BancaFacil */,
+				821107D22C2BA6E7005452CF /* BancaFacilTests */,
+				821107DC2C2BA6E7005452CF /* BancaFacilUITests */,
+				821107BA2C2BA6E3005452CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821107BA2C2BA6E3005452CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821107B92C2BA6E3005452CF /* BancaFacil.app */,
+				821107CF2C2BA6E7005452CF /* BancaFacilTests.xctest */,
+				821107D92C2BA6E7005452CF /* BancaFacilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821107BB2C2BA6E3005452CF /* BancaFacil */ = {
+			isa = PBXGroup;
+			children = (
+				821107BC2C2BA6E3005452CF /* AppDelegate.swift */,
+				821107BE2C2BA6E3005452CF /* SceneDelegate.swift */,
+				821107C02C2BA6E3005452CF /* ViewController.swift */,
+				821107C22C2BA6E3005452CF /* Main.storyboard */,
+				821107C52C2BA6E6005452CF /* Assets.xcassets */,
+				821107C72C2BA6E6005452CF /* LaunchScreen.storyboard */,
+				821107CA2C2BA6E6005452CF /* Info.plist */,
+			);
+			path = BancaFacil;
+			sourceTree = "<group>";
+		};
+		821107D22C2BA6E7005452CF /* BancaFacilTests */ = {
+			isa = PBXGroup;
+			children = (
+				821107D32C2BA6E7005452CF /* BancaFacilTests.swift */,
+			);
+			path = BancaFacilTests;
+			sourceTree = "<group>";
+		};
+		821107DC2C2BA6E7005452CF /* BancaFacilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821107DD2C2BA6E7005452CF /* BancaFacilUITests.swift */,
+				821107DF2C2BA6E7005452CF /* BancaFacilUITestsLaunchTests.swift */,
+			);
+			path = BancaFacilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821107B82C2BA6E3005452CF /* BancaFacil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821107E32C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacil" */;
+			buildPhases = (
+				821107B52C2BA6E3005452CF /* Sources */,
+				821107B62C2BA6E3005452CF /* Frameworks */,
+				821107B72C2BA6E3005452CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BancaFacil;
+			productName = BancaFacil;
+			productReference = 821107B92C2BA6E3005452CF /* BancaFacil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821107CE2C2BA6E7005452CF /* BancaFacilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821107E62C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacilTests" */;
+			buildPhases = (
+				821107CB2C2BA6E7005452CF /* Sources */,
+				821107CC2C2BA6E7005452CF /* Frameworks */,
+				821107CD2C2BA6E7005452CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821107D12C2BA6E7005452CF /* PBXTargetDependency */,
+			);
+			name = BancaFacilTests;
+			productName = BancaFacilTests;
+			productReference = 821107CF2C2BA6E7005452CF /* BancaFacilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821107D82C2BA6E7005452CF /* BancaFacilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821107E92C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacilUITests" */;
+			buildPhases = (
+				821107D52C2BA6E7005452CF /* Sources */,
+				821107D62C2BA6E7005452CF /* Frameworks */,
+				821107D72C2BA6E7005452CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821107DB2C2BA6E7005452CF /* PBXTargetDependency */,
+			);
+			name = BancaFacilUITests;
+			productName = BancaFacilUITests;
+			productReference = 821107D92C2BA6E7005452CF /* BancaFacilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821107B12C2BA6E3005452CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					821107B82C2BA6E3005452CF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					821107CE2C2BA6E7005452CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 821107B82C2BA6E3005452CF;
+					};
+					821107D82C2BA6E7005452CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 821107B82C2BA6E3005452CF;
+					};
+				};
+			};
+			buildConfigurationList = 821107B42C2BA6E3005452CF /* Build configuration list for PBXProject "BancaFacil" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821107B02C2BA6E3005452CF;
+			productRefGroup = 821107BA2C2BA6E3005452CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821107B82C2BA6E3005452CF /* BancaFacil */,
+				821107CE2C2BA6E7005452CF /* BancaFacilTests */,
+				821107D82C2BA6E7005452CF /* BancaFacilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821107B72C2BA6E3005452CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821107C62C2BA6E6005452CF /* Assets.xcassets in Resources */,
+				821107C92C2BA6E6005452CF /* Base in Resources */,
+				821107C42C2BA6E3005452CF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107CD2C2BA6E7005452CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107D72C2BA6E7005452CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821107B52C2BA6E3005452CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821107C12C2BA6E3005452CF /* ViewController.swift in Sources */,
+				821107BD2C2BA6E3005452CF /* AppDelegate.swift in Sources */,
+				821107BF2C2BA6E3005452CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107CB2C2BA6E7005452CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821107D42C2BA6E7005452CF /* BancaFacilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821107D52C2BA6E7005452CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821107E02C2BA6E7005452CF /* BancaFacilUITestsLaunchTests.swift in Sources */,
+				821107DE2C2BA6E7005452CF /* BancaFacilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821107D12C2BA6E7005452CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821107B82C2BA6E3005452CF /* BancaFacil */;
+			targetProxy = 821107D02C2BA6E7005452CF /* PBXContainerItemProxy */;
+		};
+		821107DB2C2BA6E7005452CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821107B82C2BA6E3005452CF /* BancaFacil */;
+			targetProxy = 821107DA2C2BA6E7005452CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821107C22C2BA6E3005452CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821107C32C2BA6E3005452CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821107C72C2BA6E6005452CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821107C82C2BA6E6005452CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821107E12C2BA6E7005452CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		821107E22C2BA6E7005452CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821107E42C2BA6E7005452CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BancaFacil/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821107E52C2BA6E7005452CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BancaFacil/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		821107E72C2BA6E7005452CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BancaFacil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BancaFacil";
+			};
+			name = Debug;
+		};
+		821107E82C2BA6E7005452CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BancaFacil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BancaFacil";
+			};
+			name = Release;
+		};
+		821107EA2C2BA6E7005452CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BancaFacil;
+			};
+			name = Debug;
+		};
+		821107EB2C2BA6E7005452CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCNT2659QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.BancaFacilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BancaFacil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821107B42C2BA6E3005452CF /* Build configuration list for PBXProject "BancaFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821107E12C2BA6E7005452CF /* Debug */,
+				821107E22C2BA6E7005452CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821107E32C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821107E42C2BA6E7005452CF /* Debug */,
+				821107E52C2BA6E7005452CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821107E62C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821107E72C2BA6E7005452CF /* Debug */,
+				821107E82C2BA6E7005452CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821107E92C2BA6E7005452CF /* Build configuration list for PBXNativeTarget "BancaFacilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821107EA2C2BA6E7005452CF /* Debug */,
+				821107EB2C2BA6E7005452CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821107B12C2BA6E3005452CF /* Project object */;
+}
